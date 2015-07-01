@@ -1,0 +1,1 @@
+{"version":3,"sources":["/src/scss/_module.scss","/src/scss/main.scss"],"names":[],"mappings":"AAUA,KACE,UAAY,CADR,MCLJ,oBAAA,AAAc,qBAAd,AAAc,oBAAd,AAAc,YAAA,CADT","file":"main.css","sourcesContent":[null,"@charset \"UTF-8\";\r\n\r\n@import \"module\";\r\n\r\n.hoge {\r\n  display: flex;\r\n}"],"sourceRoot":"/source/"}
