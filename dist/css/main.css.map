@@ -1,1 +1,11 @@
-{"version":3,"sources":["_module.scss","C:/WORK/__PRIVATE__/sourcemap-sandbox/src/scss/main.scss"],"names":[],"mappings":"AAUA,IAAI,AAAC,CACH,KAAK,CAAE,IAAK,CCPd,ADMM,KCND,AAAC,CACJ,OAAO,CAAE,IAAK,CADT","file":"main.css","sourcesContent":["@charset \"UTF-8\";\r\n\r\n/* -------------------------------------\r\n *\r\n * module\r\n *\r\n------------------------------------- */\r\n/* -------------------------------------\r\n * common module\r\n------------------------------------- */\r\nbody {\r\n  clear: both;\r\n}","@charset \"UTF-8\";\r\n\r\n@import \"module\";\r\n\r\n.hoge {\r\n  display: flex;\r\n}"],"sourceRoot":"/source/"}
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../../src/scss/main.scss",
+		"../../src/scss/_module.scss"
+	],
+	"sourcesContent": [],
+	"mappings": "ACUA,IAAI,AAAC,CACH,KAAK,CAAE,IAAK,CADR,ADNN,KAAK,AAAC,CACJ,OAAO,CAAE,IAAK,CADT",
+	"names": []
+}
