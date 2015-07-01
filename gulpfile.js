@@ -17,6 +17,6 @@ gulp.task('sass', function() {
     // .pipe(sourcemaps.write({includeContent: false, sourceRoot: '/src/scss'}))
     // .pipe(sourcemaps.init({loadMaps: true}))
     // .pipe(autoprefixer({browsers: AUTOPREFIXER_BROWSERS}))
-    .pipe(sourcemaps.write('.'))
+    .pipe(sourcemaps.write('.', {includeContent: false}))
     .pipe(gulp.dest('dist/css/'));
 });
