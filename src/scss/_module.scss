@@ -8,6 +8,19 @@
 /* -------------------------------------
  * common module
 ------------------------------------- */
-body {
+
+/* centeringContents */
+.centeringContents {
+  clear: both;
+  @include centering-contents();
+}
+
+
+
+
+
+
+/* heading */
+.heading {
   clear: both;
 }

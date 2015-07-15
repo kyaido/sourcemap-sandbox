@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+// mediaquery
+@mixin max-query($point) {
+  @media screen and (max-width: $point) { @content; }
+}
+@mixin min-query($point) {
+  @media screen and (min-width: $point) { @content; }
+}
+
+
+// centering-contents
+@mixin centering-contents($side-padding: 20px) {
+  width: 100%;
+  max-width: $contents-max-width + ($side-padding * 2);
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $side-padding;
+  padding-left: $side-padding;
+  box-sizing: border-box;
+}

@@ -1,12 +1,11 @@
 @charset "UTF-8";
 
+@import "vars";
+@import "mixins";
+@import "normalize";
+@import "reset";
+@import "base";
+@import "plugins";
+@import "helper";
+@import "layout";
 @import "module";
-
-.hoge {
-  display: flex;
-}
-
-
-.fuga {
-  display: flex;
-}

@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+/* -------------------------------------
+ *
+ * helper
+ *
+------------------------------------- */
+
+
+/* text decolation */
+.u-textNormal    { font-weight: normal !important; }
+.u-textBold      { font-weight: bold !important; }
+.u-textUnderline { text-decoration: underline !important; }
+.u-textItalic    { font-style: italic !important; }
+.u-textNote      { padding-left: 1em; text-indent: -1em; }
+
+
+/* element position */
+.u-elementLeft   { text-align: left !important; }
+.u-elementCenter { text-align: center !important; }
+.u-elementRight  { text-align: right !important; }
+.u-elementTop    { vertical-align: top !important; }
+.u-elementMiddle { vertical-align: middle !important; }
+.u-elementBottom { vertical-align: bottom !important; }
+
+
+/* font-size */
+@for $i from 10 through 20 {
+  .u-fs#{$i} {
+    font-size: 1px * $i !important;
+  }
+}
+
+
+/* margin top */
+@for $i from 0 through 10 {
+  .u-mt#{$i * 5} {
+    @if $i == 0 {
+      margin-top: 0 !important;
+    }
+    @else {
+      margin-top: 5px * $i !important;
+    }
+  }
+}
+
+/* margin bottom */
+@for $i from 0 through 10 {
+  .u-mb#{$i * 5} {
+    @if $i == 0 {
+      margin-bottom: 0 !important;
+    }
+    @else {
+      margin-bottom: 5px * $i !important;
+    }
+  }
+}
+
+
+/* clearfix */
+.clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
