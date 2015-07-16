@@ -1,3 +1,2 @@
-body{clear:both}.hoge{display:flex}.fuga{display:flex}
-
-/*# sourceMappingURL=main.css.map */
+body{clear:both}.hoge{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}.fuga{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}
+/*# sourceMappingURL=../maps/main.css.map */
